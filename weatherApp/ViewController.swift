@@ -101,6 +101,7 @@ class ViewController: UIViewController , CLLocationManagerDelegate, UITextFieldD
         print(shtemp)
         txtfldhum.text = shhum
         txtddscp.text = shdsc
+        txtddscp.backgroundColor = .red
         txttemp.text = String(shtemp)
         /*self.txtfldhum.text = shhum //humidity1
          self.txtddscp.text = shdsc//DecDic
